@@ -1,15 +1,17 @@
 Марија Коцевска 233030
+
 2. link до CFG https://app.diagrams.net/#G1upWTHCP3N_O5nIjhEMtNcQXzOWt77sso#%7B%22pageId%22%3A%226bZe4TaPM3vWA2CiTnFE%22%7D
+поставена слика во репозиториум од CFG 
 
 
-3.
+4.
 Цикломатска комплексност, е 8, затоа што има 7 предикатни јазли, означени со зелена боја на цртежот, а равенката вели
 Cx = nP + 1
 Cx - цикломатска комплексност
 nP - број на предикатни јазли
 Cx = 7 + 1 = 8
 
-4.
+5.
 Every statement:
 Минимален број на тест случаи е 5 за да може да се тестира секоја линија код во функцијата, и тоа следните тест случаи:
 Слика EveryStatement.png поставено е за секоја линија код *, ако се извршува со тој тест случај, или е празно ако не се извршува, бројките соодветствуваат со бројката подолу:
@@ -32,7 +34,7 @@ Every statement:
    allItems2.add(new SILab2.Item("someName",0,0,0));
    checkCart(allItems2,"1a3456791234567"); //valid length, invalid character in cardNumber
 
-5. Multiple condition 
+6. Multiple condition 
 if (item.getPrice() > 300 || item.getDiscount() > 0 || item.getQuantity() > 10)
 1: FFF - False
 2: TXX - True (TFF,TFT,TTF,TTT)
