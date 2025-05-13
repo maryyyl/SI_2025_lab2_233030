@@ -40,7 +40,7 @@ public class SILab2Test {
         List<SILab2.Item> allItems= new ArrayList<>();
         allItems.add(new SILab2.Item("someName",1,299,0)); //- FFF
         allItems.add(new SILab2.Item("someName",1,301,1)); //- TTF (TXX)
-        allItems.add(new SILab2.Item("someName",1,299,0.10));// - FTF
+        allItems.add(new SILab2.Item("someName",1,299,0.10));// - FTF (FTX)
         allItems.add(new SILab2.Item("someName",11,299,0)); //- FFT
         assertEquals(3767.1,lab2.checkCart(allItems,"1234567891234567"));
     }
